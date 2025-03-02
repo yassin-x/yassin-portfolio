@@ -13,11 +13,6 @@ export default function Navbar() {
     },
     {
       id: crypto.randomUUID(),
-      name: "Projects",
-      href: Routes.PROJECTS,
-    },
-    {
-      id: crypto.randomUUID(),
       name: "Contact Us",
       href: Pages.CONTACT,
     },
