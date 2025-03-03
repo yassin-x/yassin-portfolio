@@ -58,10 +58,10 @@ export default function AllProjects({
 
           <div className="flex items-center gap-4 px-2">
             <ProjectLink href={project.previewLink} title="Preview">
-              <LinkIcon className="w-8 h-8" />
+              <LinkIcon className="w-6 h-6" />
             </ProjectLink>
             <ProjectLink href={project.codeLink} title="GitHub Link">
-              <FaGithub className="w-8 h-8" />
+              <FaGithub className="w-6 h-6" />
             </ProjectLink>
           </div>
         </motion.div>

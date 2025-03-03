@@ -24,7 +24,7 @@ export default function Hero() {
               Focused on scalability, security, and seamless user experiences.
             </p>
             <div className="flex flex-row gap-2 items-center">
-              <Button className="rounded-full">CV</Button>
+              <Button className="rounded-full">Preview CV</Button>
               <Button variant={"ghost"}>
                 <Link
                   href={"https://github.com/yassin-x"}
