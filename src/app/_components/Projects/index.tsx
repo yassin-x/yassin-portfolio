@@ -45,6 +45,14 @@ export default function Projects() {
       codeLink: "https://github.com/yassin-x/chat-app",
       images: ["/assets/5/1.png", "/assets/5/2.png"],
     },
+    {
+      title: "Plix Bot",
+      description:
+        "Bot discord dashboard with React.js and Node.js, Express Js",
+      previewLink: "https://yassin.icu/",
+      codeLink: "https://github.com/yassin-x",
+      images: ["/assets/8/1.png", "/assets/8/2.png"],
+    },
   ];
 
   const nextProjects: ProjectsType[] = [
@@ -73,6 +81,35 @@ export default function Projects() {
       previewLink: "https://yassin.icu/",
       codeLink: "https://github.com/yassin-x/yassin-portfolio",
       images: ["/assets/7/1.png", "/assets/7/2.png"],
+    },
+    {
+      title: "University Landing Website",
+      description:
+        "landing website for university with dashboard with NextAuth and prisma, postgreSQL",
+      previewLink: "https://yassin.icu/",
+      codeLink: "https://github.com/yassin-x",
+      images: ["/assets/9/1.png"],
+    },
+    {
+      title: "Pizza Shop [Beta]",
+      description:
+        "website for pizza shop with dashboard using NextAuth and prisma, postgreSQL, and stripe",
+      previewLink: "https://yassin.icu/",
+      codeLink: "https://github.com/yassin-x",
+      images: ["/assets/10/1.png"],
+    },
+    {
+      title: "Cinema App",
+      description:
+        "website for cinema app all films and series using nextjs and antd, tailwindcss, shadcn, TMDB",
+      previewLink: "https://x-cima.vercel.app/",
+      codeLink: "https://github.com/yassin-x/x-cima",
+      images: [
+        "/assets/11/1.png",
+        "/assets/11/2.png",
+        "/assets/11/3.png",
+        "/assets/11/4.png",
+      ],
     },
   ];
 

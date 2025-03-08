@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import ThemeProvider from "@/provider/ThemeProvider";
+import ThemeProvider from "@/providers/ThemeProvider";
 import Footer from "@/components/Footer";
+import NextAuthSessionProvider from "@/providers/NextAuthSessionProvider";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -37,11 +38,13 @@ export default function RootLayout({
       <body
         className={`${roboto.className} transition-colors duration-100 ease-linear overflow-x-hidden`}
       >
-        <ThemeProvider>
-          <Header />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <NextAuthSessionProvider>
+          <ThemeProvider>
+            <Header />
+            {children}
+            <Footer />
+          </ThemeProvider>
+        </NextAuthSessionProvider>
       </body>
     </html>
   );
